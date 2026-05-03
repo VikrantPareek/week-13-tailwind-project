@@ -7,7 +7,7 @@ import { Calender } from "./components/Calender";
 
 function App() {
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen ">
       <div className="h-screen hidden md:block md:w-72 p-3 border border-gray-300 shadow-xl">
         <div className="flex justify-between items-center mb-5">
           <WebinarButton />
