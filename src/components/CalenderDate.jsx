@@ -1,6 +1,6 @@
-export function CalenderDate({date}) {
+export function CalenderDate({date, className}) {
   return (
-    <div className="m-10 w-fit px-5 py-2 rounded-xl bg-[#f5f6f6] flex gap-25">
+    <div className={`w-fit px-5 py-2 rounded-xl bg-[#f5f6f6] flex gap-20 ${className}`}>
         <div className="flex gap-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"

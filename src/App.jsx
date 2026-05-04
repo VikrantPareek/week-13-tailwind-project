@@ -1,3 +1,4 @@
+import { Calender } from "./components/Calender";
 import { CalenderDate } from "./components/CalenderDate";
 import { CalenderMeeting } from "./components/CalenderMeeting";
 import { ProfileCard } from "./components/ProfileCard";
@@ -6,7 +7,7 @@ import { SidebarOption } from "./components/SidebarOption";
 import WebinarButton from "./components/WebinarButton";
 
 function App() {
-  return <CalenderMeeting time={"11:30 AM"} status={"Live"} topic={"UI/UX"} />
+  return <Calender />
 }
 
 export default App
