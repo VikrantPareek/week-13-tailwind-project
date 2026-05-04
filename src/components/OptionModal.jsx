@@ -1,8 +1,8 @@
 import { OptionsIcon } from "./OptionsIcon";
 
-export function OptionModal() {
+export function OptionModal({className}) {
   return (
-    <div className="border border-gray-300 rounded-xl shadow-xl flex flex-wrap px-5 py-6 w-84 h-62 justify-between content-between">
+    <div className={`border border-gray-300 rounded-xl shadow-xl flex flex-wrap px-5 py-6 w-76 h-62 justify-between content-between ${className}`}>
       <OptionsIcon
         text={"Schedule a Webinar"}
         icon={
