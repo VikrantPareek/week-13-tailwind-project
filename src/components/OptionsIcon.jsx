@@ -1,4 +1,4 @@
-export function OptionIcon({icon, text}) {
+export function OptionsIcon({icon, text}) {
   return (
     <div className="w-fit">
       <div className="mx-auto bg-[#7bdfcb] w-fit px-3 py-3 rounded-lg">
