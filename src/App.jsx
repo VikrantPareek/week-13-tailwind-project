@@ -1,5 +1,7 @@
+import WebinarButton from "./components/WebinarButton";
+
 function App() {
-  return "HELLO"
+  return <WebinarButton/>
 }
 
 export default App
