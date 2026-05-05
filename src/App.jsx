@@ -11,7 +11,7 @@ function App() {
       <div className="h-screen hidden md:block md:w-72 p-3 border border-gray-300 shadow-xl">
         <div className="flex justify-between items-center mb-5">
           <WebinarButton />
-          <ProfileIcon height={12} />
+          <ProfileIcon className={"h-12"} />
         </div>
         <div className="flex flex-col gap-2">
           <SidebarOption

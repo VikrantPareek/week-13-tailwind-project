@@ -1,8 +1,8 @@
-export function ProfileIcon(props) {
+export function ProfileIcon({className}) {
   return (
     <div>
       <img
-        className={`h-${props.height} rounded-lg ${props.className}`}
+        className={`rounded-lg ${className}`}
         src="https://thumbs.dreamstime.com/b/cute-cat-portrait-square-photo-beautiful-white-closeup-105311158.jpg"
         alt="profile-image"
       />
