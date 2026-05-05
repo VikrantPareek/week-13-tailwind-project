@@ -8,7 +8,7 @@ import { OptionModal } from "./components/OptionModal";
 function App() {
   return (
     <div className="flex h-screen">
-      <div className="w-72 p-3 border border-gray-300 shadow-xl">
+      <div className="h-screen hidden md:block md:w-72 p-3 border border-gray-300 shadow-xl">
         <div className="flex justify-between items-center mb-5">
           <WebinarButton />
           <ProfileIcon height={12} />
@@ -116,12 +116,12 @@ function App() {
           />
         </div>
       </div>
-      <div className="flex-1 flex flex-col">
-        <div className="h-32 bg-black"></div>
+      <div className="h-screen flex-1 flex flex-col">
+        <div className="hidden md:block h-32 bg-black"></div>
         <div className="border border-gray-300 shadow-xl flex-1 flex">
           <div>
             <ProfileCard
-              className={"relative left-6 bottom-10"}
+              className={"relative md:left-6 md:bottom-10"}
               name={"Kitty Cat"}
               mail={"kitty077@gmail.com"}
               location={"Delhi, India"}
