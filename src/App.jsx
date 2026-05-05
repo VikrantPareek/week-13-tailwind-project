@@ -1,8 +1,8 @@
 import WebinarButton from "./components/WebinarButton";
+import { OptionModal } from "./components/OptionModal";
 import { ProfileCard } from "./components/ProfileCard";
 import { ProfileIcon } from "./components/ProfileIcon";
 import { SidebarOption } from "./components/SidebarOption";
-import { OptionModal } from "./components/OptionModal";
 import { Calender } from "./components/Calender";
 
 function App() {
